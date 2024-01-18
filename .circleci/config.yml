@@ -31,7 +31,7 @@ jobs:
             git config --global user.email "kumarsuraj14253@gmail.com"
             git config --global user.name "kumarsuraj14253"
             pwd
-            cd kube_manifest
+            cd gitops-argocd-app-kube_manifest
             pwd
             echo $TAG
             sed -i "s/build-.*/build-$TAG/g" manifest/deployment.yaml
